@@ -8,6 +8,7 @@ const data = {
             price:'$120',
             brand:'Amazon',
             rating:4.5,
+            countInStock:2,
             numReviews:10,
             description:'High quality product'
         },
@@ -17,6 +18,7 @@ const data = {
             category:'Electronics',
             image:'../images/product-2.jpg',
             price:'$120',
+            countInStock:1,
             brand:'Razor',
             rating:4.0,
             numReviews:11,
@@ -28,6 +30,7 @@ const data = {
             category:'Electronics',
             image:'../images/product-3.jpg',
             price:'$160',
+            countInStock:0,
             brand:'Corsair',
             rating:3.6,
             numReviews:9,
@@ -39,6 +42,7 @@ const data = {
             category:'Electronics',
             image:'../images/product-4.jpg',
             price:'$60',
+            countInStock:21,
             brand:'Redgear',
             rating:3.5,
             numReviews:5,
@@ -51,6 +55,7 @@ const data = {
             image:'../images/product-5.jpg',
             price:'$200',
             brand:'Google',
+            countInStock:3,
             rating:4.8,
             numReviews:20,
             description:'High quality product'
@@ -62,6 +67,7 @@ const data = {
             image:'../images/product-5.jpg',
             price:'$200',
             brand:'Google',
+            countInStock:2,
             rating:4.8,
             numReviews:20,
             description:'High quality product'
@@ -73,6 +79,7 @@ const data = {
             image:'../images/product-5.jpg',
             price:'$200',
             brand:'Google',
+            countInStock:2,
             rating:4.8,
             numReviews:20,
             description:'High quality product'
@@ -84,6 +91,7 @@ const data = {
             image:'../images/product-5.jpg',
             price:'$200',
             brand:'Google',
+            countInStock:2,
             rating:4.8,
             numReviews:20,
             description:'High quality product'
@@ -95,6 +103,7 @@ const data = {
             image:'../images/product-5.jpg',
             price:'$200',
             brand:'Google',
+            countInStock:2,
             rating:4.8,
             numReviews:20,
             description:'High quality product'

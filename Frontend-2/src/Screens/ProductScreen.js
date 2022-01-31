@@ -10,7 +10,8 @@ const product = data.products.find((x) => x._id === id);
     return <div> Product not found</div>;
   }
   return (<div>
-    <div className='row'>
+  <Link to = "/">Back to Result</Link>
+    <div className='row top'>
       <div className='col-2'>
         <img className='large' src={product.image} alt={product.name} />
       </div>
@@ -18,6 +19,13 @@ const product = data.products.find((x) => x._id === id);
         <ul>
           <li>
             <h1>{product.name}</h1>
+          </li>
+          <li>
+          <h2>Description: <br />{product.description}</h2>
+          </li>
+          <li>
+          <div>Price</div>
+                <div className='Price'>{product.price}</div>
           </li>
           <li>
             <Rating
